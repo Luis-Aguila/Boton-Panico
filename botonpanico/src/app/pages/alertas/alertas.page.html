@@ -1,0 +1,28 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+          <ion-button (click)="toggleMenu()">
+            <ion-icon slot="icon-only" name="menu"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+      <ion-title color="" class="ion-text-center">Alerta Principal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-title>Seleccione la alerta Principal</ion-title>
+  <ion-card class="ion-padding">
+    <ion-label class="ion-padding">Seleccione un Tipo de Alerta</ion-label>
+    <p>Primera persona (Yo):</p>
+    <ion-button (click)="seleccionAlerta('Robo Primera Persona')" expand="block" color="tertiary">Robo</ion-button>
+    <ion-button (click)="seleccionAlerta('Violencia Primera Persona')" expand="block" color="tertiary">Violencia</ion-button>
+    <ion-button (click)="seleccionAlerta('Acoso Primera Persona')" expand="block" color="tertiary">Acoso</ion-button>
+    <ion-button (click)="seleccionAlerta('Accidente Primera Persona')" expand="block" color="tertiary">Accidente</ion-button>
+    <p>Tercera persona (Otro):</p>
+    <ion-button (click)="seleccionAlerta('Robo Tercera Persona')" expand="block" color="tertiary">Robo</ion-button>
+    <ion-button (click)="seleccionAlerta('Violencia Tercera Persona')" expand="block" color="tertiary">Violencia</ion-button>
+    <ion-button (click)="seleccionAlerta('Acoso Tercera Persona')" expand="block" color="tertiary">Acoso</ion-button>
+    <ion-button (click)="seleccionAlerta('Accidente Tercera Persona')" expand="block" color="tertiary">Accidente</ion-button>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,31 @@
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menú Principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card class="ion-padding">
+      <ion-label class="ion-padding">Seleccione un Tipo de Alerta</ion-label>
+      <p>Primera persona (Yo):</p>
+      <ion-button expand="block" color="tertiary">Robo</ion-button>
+      <ion-button expand="block" color="tertiary">Violencia</ion-button>
+      <ion-button expand="block" color="tertiary">Acoso</ion-button>
+      <ion-button expand="block" color="tertiary">Accidente</ion-button>
+      <p>Tercera persona (Otro):</p>
+      <ion-button (click)="alertaRoboTercera()" expand="block" color="tertiary">Robo</ion-button>
+      <ion-button (click)="alertaViolenciaTercera()" expand="block" color="tertiary">Violencia</ion-button>
+      <ion-button (click)="alertaAcosoTercera()" expand="block" color="tertiary">Acoso</ion-button>
+      <ion-button (click)="alertaAccidenteTercera()" expand="block" color="tertiary">Accidente</ion-button>
+    </ion-card>
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button (click)="irConfiguracion()">
+          <ion-icon slot="icon-only" name="settings"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+    </ion-toolbar>
+  </ion-footer>
+</ion-menu>

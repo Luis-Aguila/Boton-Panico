@@ -1,0 +1,19 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+          <ion-button (click)="toggleMenu()">
+            <ion-icon slot="icon-only" name="menu"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+      <ion-title color="" class="ion-text-center">Alerta Tercera Persona</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-title>Seleccione Ubicación de la alerta</ion-title>
+  <ion-card class="ion-padding">
+    
+    <ion-button (click)="generarAlerta()" expand="block" color="tertiary">Generar Alerta</ion-button>
+  </ion-card>
+
+</ion-content>
