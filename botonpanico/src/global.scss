@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,30 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+//estilos propios
+.ion-color-ambulancia {
+  --ion-color-base: var(--ion-color-ambulancia);
+  --ion-color-base-rgb: var(--ion-color-ambulancia-rgb);
+  --ion-color-contrast: var(--ion-color-ambulancia-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-ambulancia-contrast-rgb);
+  --ion-color-shade: var(--ion-color-ambulancia-shade);
+  --ion-color-tint: var(--ion-color-ambulancia-tint);
+}
+
+.ion-color-bombero {
+  --ion-color-base: var(--ion-color-bombero);
+  --ion-color-base-rgb: var(--ion-color-bombero-rgb);
+  --ion-color-contrast: var(--ion-color-bombero-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-bombero-contrast-rgb);
+  --ion-color-shade: var(--ion-color-bombero-shade);
+  --ion-color-tint: var(--ion-color-bombero-tint);
+}
+.ion-color-carabinero {
+  --ion-color-base: var(--ion-color-carabinero);
+  --ion-color-base-rgb: var(--ion-color-carabinero-rgb);
+  --ion-color-contrast: var(--ion-color-carabinero-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-carabinero-contrast-rgb);
+  --ion-color-shade: var(--ion-color-carabinero-shade);
+  --ion-color-tint: var(--ion-color-carabinero-tint);
+}

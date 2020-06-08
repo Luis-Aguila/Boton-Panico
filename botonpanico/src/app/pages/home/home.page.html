@@ -13,12 +13,12 @@
 
     <ion-buttons>
       <ion-button (click)="verAlerta()">
-        <ion-icon slot="icon-only" name="ellipse"></ion-icon>
+        <ion-icon color="success" slot="icon-only" name="ellipse"></ion-icon>
       </ion-button>
     </ion-buttons>
 
 
-    <ion-button class="alerta-rapida" expand="block" color="tertiary">alerta rápida</ion-button>
+    <div class="round-button"><div class="round-button-circle"><a href="#" class="round-button">Alerta Rápida</a></div></div>
 
 
 
@@ -26,8 +26,8 @@
 <ion-footer>
   <ion-card class="ion-padding">
       <p>Llamar Números de emergencias.</p>
-      <ion-button expand="block" color="tertiary">Ambulancia (131)</ion-button>
-      <ion-button expand="block" color="tertiary">Bomberos (132)</ion-button>
-      <ion-button expand="block" color="tertiary">Carabineros (133)</ion-button>
+      <ion-button color="ambulancia" expand="block">Ambulancia (131)</ion-button>
+      <ion-button color="bombero" expand="block">Bomberos (132)</ion-button>
+      <ion-button color="carabinero" expand="block">Carabineros (133)</ion-button>
   </ion-card>
 </ion-footer>
